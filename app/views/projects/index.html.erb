@@ -15,6 +15,9 @@
         text-align: right;
         margin: 0px 200px;
     }
+    body {
+      text-align: center;
+    }
 </style>
 </head>
 <body>
@@ -31,14 +34,13 @@
         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Account</a>
         <ul class="dropdown-menu">
           <li><a class="dropdown-item" href="http://localhost:3000/users/sign_in">Sign in</a></li>
-          <li><a class="dropdown-item" href="#">Sign out</a></li>
           <li><a class="dropdown-item" href="http://localhost:3000/users/sign_up">Sign up</a></li>
         </ul>
       </li>
     </ul>
   </div>
 </nav>
-<h1> Home </h1>
+<h1> Projects </h1>
 <p> Hello, my name is Zachary Arnold. I am pursing a Bachelor of Science in Computer Science, with the track Advanced Software Engineering </p>
 <div class="new">
     <%= link_to "New project", new_project_path %>
